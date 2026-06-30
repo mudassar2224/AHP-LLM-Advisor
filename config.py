@@ -6,8 +6,9 @@ import os
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # Best available Groq models (fallback chain)
+# Best available Groq models (fallback chain)
 GROQ_MODEL        = "llama-3.3-70b-versatile"
-GROQ_MODEL_FAST   = "llama3-70b-8192"
+GROQ_MODEL_FAST   = "llama-3.1-8b-instant"
 GROQ_MODEL_LIGHT  = "mixtral-8x7b-32768"
 
 # ─────────────────────────────────────────────
