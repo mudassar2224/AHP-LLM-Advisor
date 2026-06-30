@@ -206,7 +206,7 @@ footer    {{ visibility: hidden; }}
 [data-testid="stChatInput"] {{
     border-radius: 35px !important; 
     background: rgba(15, 12, 41, 1) !important;
-    border: 1.5px solid rgba(255,255,255,.20) !important; 
+    border: 1.5px solid rgba(255,255,255,.80) !important; 
     backdrop-filter: blur(22px) !important; 
     -webkit-backdrop-filter: blur(22px) !important; 
     box-shadow: 0 6px 32px rgba(0,0,0,.28) !important; 
