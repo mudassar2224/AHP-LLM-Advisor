@@ -204,24 +204,34 @@ footer    {{ visibility: hidden; }}
     background:transparent !important; padding:0 !important;
     position:relative; z-index:2;
 }}
+
+/* Main wrapper, inner container, and inner textarea */
+[data-testid="stChatInput"],
+[data-testid="stChatInput"] > div,
+[data-testid="stChatInput"] textarea {{
+    background: rgba(28, 14, 38, 0.6) !important;
+}}
+
 [data-testid="stChatInput"] {{
     border-radius: 35px !important; 
-    /* Updated to your requested dark plum color */
-    background: rgba(28, 14, 38, 0.6) !important;
-    /* Changed to a semi-transparent light border for crisp definition */
     border: 1.5px solid rgba(255, 255, 255, 0.15) !important; 
     backdrop-filter: blur(22px) !important; 
     -webkit-backdrop-filter: blur(22px) !important; 
     box-shadow: 0 6px 32px rgba(0,0,0,.28) !important; 
     padding: 4px 10px !important; 
+    overflow: hidden !important;
 }}
+
+/* Ensure the textarea text styles stay clean */
 [data-testid="stChatInput"] textarea {{
-    background:transparent !important;
-    color:rgba(255,255,255,.92) !important;
-    font-size:15px !important; caret-color:#a78bfa !important;
+    color: rgba(255,255,255,.92) !important;
+    font-size: 15px !important; 
+    caret-color: #a78bfa !important;
 }}
+
 [data-testid="stChatInput"] textarea::placeholder {{
-    color:rgba(255,255,255,.38) !important; font-size:14px !important;
+    color: rgba(255,255,255,.38) !important; 
+    font-size: 14px !important;
 }} 
 
 
