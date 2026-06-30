@@ -199,14 +199,17 @@ footer    {{ visibility: hidden; }}
 }}
 
 /* ════ 6. CHAT INPUT ════ */
+/* ════ 6. CHAT INPUT ════ */
 [data-testid="stBottom"] {{
     background:transparent !important; padding:0 !important;
     position:relative; z-index:2;
 }}
 [data-testid="stChatInput"] {{
     border-radius: 35px !important; 
-    background: rgba(15, 12, 41, 1) !important;
-    border: 1.5px solid rgba(0, 0, 0, 0.2) !important; 
+    /* Updated to your requested dark plum color */
+    background: rgba(28, 14, 38, 0.6) !important;
+    /* Changed to a semi-transparent light border for crisp definition */
+    border: 1.5px solid rgba(255, 255, 255, 0.15) !important; 
     backdrop-filter: blur(22px) !important; 
     -webkit-backdrop-filter: blur(22px) !important; 
     box-shadow: 0 6px 32px rgba(0,0,0,.28) !important; 
@@ -219,7 +222,8 @@ footer    {{ visibility: hidden; }}
 }}
 [data-testid="stChatInput"] textarea::placeholder {{
     color:rgba(255,255,255,.38) !important; font-size:14px !important;
-}}
+}} 
+
 
 /* ════ 7. SIDEBAR ════ */
 [data-testid="stSidebar"] {{
