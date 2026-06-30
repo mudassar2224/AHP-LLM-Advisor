@@ -203,9 +203,9 @@ footer    {{ visibility: hidden; }}
     background:transparent !important; padding:0 !important;
     position:relative; z-index:2;
 }}
-[data-testid="stChatInput"] { {
+[data-testid="stChatInput"] {{
     border-radius: 35px !important; 
-    background: rgba(15, 12, 41, 0.6) !important; /* Made this a dark purple/black tint */
+    background: rgba(15, 12, 41, 0.6) !important;
     border: 1.5px solid rgba(255,255,255,.20) !important; 
     backdrop-filter: blur(22px) !important; 
     -webkit-backdrop-filter: blur(22px) !important; 
