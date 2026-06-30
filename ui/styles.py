@@ -203,13 +203,14 @@ footer    {{ visibility: hidden; }}
     background:transparent !important; padding:0 !important;
     position:relative; z-index:2;
 }}
-[data-testid="stChatInput"] {{
-    border-radius:35px !important;
-    background:rgba(255,255,255,.10) !important;
-    border:1.5px solid rgba(255,255,255,.20) !important;
-    backdrop-filter:blur(22px) !important; -webkit-backdrop-filter:blur(22px) !important;
-    box-shadow:0 6px 32px rgba(0,0,0,.28) !important;
-    padding:4px 10px !important;
+[data-testid="stChatInput"] { {
+    border-radius: 35px !important; 
+    background: rgba(15, 12, 41, 0.6) !important; /* Made this a dark purple/black tint */
+    border: 1.5px solid rgba(255,255,255,.20) !important; 
+    backdrop-filter: blur(22px) !important; 
+    -webkit-backdrop-filter: blur(22px) !important; 
+    box-shadow: 0 6px 32px rgba(0,0,0,.28) !important; 
+    padding: 4px 10px !important; 
 }}
 [data-testid="stChatInput"] textarea {{
     background:transparent !important;
